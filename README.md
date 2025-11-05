@@ -25,29 +25,14 @@ Dificuldades em gerenciamento de backups e manutenção
 
 ✅ Simplificar arquivamento de dados históricos
 
-# 🏗️ Estrutura do Projeto
-text
-streamnow-particionamento/
-│
-├── scripts/
-│   ├── 01_create_tables.sql
-│   ├── 02_create_partitions.sql
-│   ├── 03_inserts.sql
-│   ├── 04_queries.sql
-│
-├── docs/
-│   └── estrategia_particionamento.md
-│
-├── README.md
-└── LICENSE
-🧠 Estratégias de Particionamento Implementadas
-📊 Tabela usuarios
+# 🧠 Estratégias de Particionamento Implementadas
+# 📊 Tabela usuarios
 Aspecto	Detalhamento
 Tipo	Particionamento LIST
 Coluna	pais
 Partições	usuarios_brasil, usuarios_eua
 Justificativa	Consultas frequentes por país, mais de 40 países diferentes, distribuição natural dos dados
-📊 Tabela reproducoes
+# 📊 Tabela reproducoes
 Aspecto	Detalhamento
 Tipo	Particionamento RANGE
 Coluna	data_reproducao
