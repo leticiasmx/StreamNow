@@ -1,4 +1,4 @@
-## 🎯 StreamNow - Particionamento de Dados no PostgreSQL
+# 🎯 StreamNow - Particionamento de Dados no PostgreSQL
 
 # 📋 Descrição do Projeto
 Implementação de estratégias avançadas de particionamento de dados no PostgreSQL para otimizar o desempenho e facilitar a manutenção do banco de dados da StreamNow, uma plataforma de streaming em crescimento rápido que enfrenta desafios de escalabilidade.
