@@ -73,3 +73,9 @@ FROM reproducoes r
 JOIN usuarios u ON r.id_usuario = u.id_usuario
 WHERE r.data_reproducao BETWEEN '2024-01-01' AND '2024-01-31'
 ORDER BY r.data_reproducao;
+
+SELECT tableoid::regclass AS particao,*
+FROM usuarios;
+
+SELECT tableoid::regclass AS particao,*
+ FROM reproducoes;
